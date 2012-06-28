@@ -1,0 +1,5 @@
+DESCRIPTION="GTK+ text editor"
+HOMEPAGE="http://dev.midnightcoding.org/projects/gummi"
+SRC_URI="http://dev.midnightcoding.org/projects/gummi/latest.tar.gz"
+
+LDFLAGS+=" -Wl,--export-all-symbols"
