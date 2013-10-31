@@ -1,0 +1,13 @@
+NAME="gummi"
+VERSION=0.6.4
+RELEASE=1
+CATEGORY="Editors"
+SUMMARY="GTK+ LaTeX editor"
+DESCRIPTION="Gummi is a LaTeX editor for the Linux platform, written in C/GTK+.
+It was designed with simplicity in mind, but hopes to appeal to both novice and
+more advanced LaTeX writers."
+REQUIRES="texlive-collection-latexrecommended"
+HOMEPAGE="http://dev.midnightcoding.org/projects/gummi"
+SRC_URI="http://dev.midnightcoding.org/projects/gummi/latest.tar.gz"
+
+LDFLAGS+=" -Wl,--export-all-symbols"

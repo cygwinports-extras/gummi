@@ -1,7 +1,0 @@
-category: Editors Publishing
-requires: libcairo2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libgtksourceview2.0_0 libgtkspell0 libintl8 libpango1.0_0 libpoppler-glib8 zlib0 texlive-collection-latexrecommended
-sdesc: "GTK+ LaTeX editor"
-ldesc: "Gummi is a LaTeX editor for the Linux platform, written in 
-C/GTK+. It was designed with simplicity in mind, but hopes to appeal to 
-both novice and more advanced LaTeX writers."
-
