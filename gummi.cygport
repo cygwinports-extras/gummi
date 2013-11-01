@@ -1,5 +1,5 @@
 NAME="gummi"
-VERSION=0.6.4
+VERSION=0.6.5
 RELEASE=1
 CATEGORY="Editors"
 SUMMARY="GTK+ LaTeX editor"
@@ -8,6 +8,6 @@ It was designed with simplicity in mind, but hopes to appeal to both novice and
 more advanced LaTeX writers."
 REQUIRES="texlive-collection-latexrecommended"
 HOMEPAGE="http://dev.midnightcoding.org/projects/gummi"
-SRC_URI="http://dev.midnightcoding.org/projects/gummi/latest.tar.gz"
+SRC_URI="http://dev.midnightcoding.org/attachments/download/301/gummi-${VERSION}.tar.gz"
 
 LDFLAGS+=" -Wl,--export-all-symbols"
